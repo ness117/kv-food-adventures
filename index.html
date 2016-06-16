@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>.life = food.</title>
+		<title>Hungry Hangry Hippos</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<h1>What to eat?</h1>
-		<ul>
-			<li>TACOS: La Tacqueria</li>
-			<li>Spaghettei</li>
-			<li>PHO</li>
-			<li>Korean tofu soup (once again)</li>
-			<li>Kishimoto (for poor van)</li>
-			<li>Five Guys</li>
-			<li>Carl's Jr.</li>
-			<li>Shake Shack, Earl of Sandwich in VEGAS</li>
-			<li>In and Out</li>
-			<li>Cali Burger</li>
-			<li>Caesar's Buffet in VEGAS</li>
-		</ul>
+		<div class="article-container">
+			<div class="title-container">
+				<h1>hangry?</h1>
+			</div>
+			<div class="list-container">
+				<ul id="checklist">
+					<li><input type="checkbox" class="checkbox"/>TACOS: La Tacqueria</li>
+					<li><input type="checkbox" class="checkbox"/>Spaghettei</li>
+					<li><input type="checkbox" class="checkbox"/>PHO</li>
+					<li><input type="checkbox" class="checkbox"/>Korean tofu soup (once again)</li>
+					<li><input type="checkbox" class="checkbox"/>Kishimoto (for poor van)</li>
+					<li><input type="checkbox" class="checkbox"/>Five Guys</li>
+					<li><input type="checkbox" class="checkbox"/>Carl's Jr.</li>
+					<li><input type="checkbox" class="checkbox"/>Shake Shack, Earl of Sandwich in VEGAS</li>
+					<li><input type="checkbox" class="checkbox"/>In and Out</li>
+					<li><input type="checkbox" class="checkbox"/>Cali Burger</li>
+					<li><input type="checkbox" class="checkbox"/>Caesar's Buffet in VEGAS</li>
+				</ul>
+			</div>
+			<form action="" class="form" method="GET">
+				<input class="new-resto" type="text" placeholder="I'm craving..." />
+				<button id="still-hangry" type="submit">still hangry</button>
+			</form>
+		</div>
 	</body>
 </html>
